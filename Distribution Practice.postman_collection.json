@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "d130d56d-97de-4f2f-9512-aeca4e484ea0",
+    "name": "Distribution Practice",
+    "description": "Hello, this is my folder to showcase my abilities in QA using a public transpsort API : [https://v6.db.transport.rest/](https://v6.db.transport.rest/) .\n\nThis is done wwith the purpose practicing with a travel related API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54101989",
+    "_collection_link": "https://go.postman.co/collection/54101989-d130d56d-97de-4f2f-9512-aeca4e484ea0?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Location Search",
+      "item": [
+        {
+          "name": "Valid city",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Invalid city",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "empty query",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Special Characters",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Unicode",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ],
+      "description": "in this location search folder I test different types of request."
+    },
+    {
+      "name": "Departures",
+      "item": [
+        {
+          "name": "Valid Station ID",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "invalid station ID",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "past date",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "future date",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
